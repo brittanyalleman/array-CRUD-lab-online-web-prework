@@ -23,7 +23,7 @@ array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-add_element_to_end_of_array[1]
+array[1]
 end
 
 def retrieve_first_element_from_array(array)
