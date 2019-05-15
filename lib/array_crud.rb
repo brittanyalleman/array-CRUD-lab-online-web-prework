@@ -19,9 +19,8 @@ array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  add_element_to_end_of_array = ["array","element"]
-  add_element_to_end_of_array.shift ("arrays!")
-  add_element_to_end_of_array.inspect
+array.shift (array)
+  
 end
 
 def retrieve_element_from_index(array, index_number)
